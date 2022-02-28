@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carol</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--aos css 연결-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!--aos js 연결-->
+
+    <!--파비콘-->
+    <link href="images/icon.png" rel="icon" type="image/png" sizes="32x32">
+ 
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <h2 class="header_logo"><a href="#"><img src="images/logo.png" alt="캐롤 로고"></a></h2>
+        <h2 class="small_logo"><a href="#"><img src="images/small_logo.png" alt="캐롤 작은 로고"></a></h2>
+    </header>
+    <nav>
+        <div class="nav_inner">
+        <ul>
+            <li class="on"><a href="#bg1">MOVIE RE-OPENING</a></li>
+            <li><a href="#contents2">MOVIE INTRODUCE</a></li>
+            <li><a href="#contents4">MOVIE MAGAZINE</a></li>
+            <li><a href="#contents5">MOVIE STEELCUT</a></li>
+            <li><a href="#contents6">MOVIE GOODS</a></li>
+        </ul> 
+    </div><!--nav_inner E-->
+    </nav>
+<!--모바일 메뉴버튼-->
+    <input type="checkbox" id="menuicon">
+    <label for="menuicon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    <div class="slidebar">
+        <ul class="nav">
+            <li><a href="#bg1">MOVIE RE-OPENING</a></li>
+            <li><a href="#contents2">MOVIE INTRODUCE</a></li>
+            <li><a href="#contents4">MOVIE MAGAZINE</a></li>
+            <li><a href="#contents5">MOVIE STEELCUT</a></li>
+            <li><a href="#contents6">MOVIE GOODS</a></li>
+        </ul>
+    </div><!--slidebar E-->
+
+    <div id="main_bg">
+    </div><!--main_bg E-->
+    <div id="bg1">
+    <div class="contents1">
+        <div class="contents1_in">
+            <h1 data-aos="fade-up" data-aos-duration="1000">MOVIE <br>
+                 RE-OPENING</h1>
+            <ul>
+                <li>
+                    <div class="title">
+                        <p class="title_in1">이동진 평론가 &nbsp;&nbsp;&nbsp;&nbsp;<span>★★★★★</span> </p>
+                        <p class="title_in1-1">이동진 평론가 <span>★★★★★</span> </p>
+                        <p class="title_in2">멜로드라마의 역사가 장르에 내린 햇살같은 축복</p>
+                        <p class="title_in3">멜로드라마의 역사가 장르에 <br> 내린 햇살같은 축복</p>
+                    </div><!--title E-->
+                    <div class="text_info">
+                        루니 마라에게 어떻게 그렇게 사랑에 빠진 눈빛 연기를
+                        했냐는 질문에, 케이트 블란쳇의 눈을 보면 그렇게 된다고
+                        했던 대답을 완벽하게 이해할 수 있었다.
+                    </div><!--text_info-->
+                </li>
+                <li>
+                    <div class="title">
+                        <p class="title_in1">김성훈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>★★★★★</span></p>
+                        <p class="title_in1-1">김성훈 <span>★★★★★</span></p>
+                        <p class="title_in2">완벽에 이르는 마침표. 올해 최고의 엔딩!</p>
+                        <p class="title_in3">완벽에 이르는 마침표. <br>올해 최고의 엔딩!</p>
+                    </div><!--title E-->
+                    <div class="text_info">
+                        "사랑해요" 이 한마디를 하기까지 캐롤은 엄마라는 무게를
+                         덜어내었고, 거절을 할 수 있게 된 테레즈는 이 한마디를 듣고 다시 돌아왔다. <br>
+                         이토록 우아하면서도 열정적인 사랑, 그것을 담는 섬세한 시선.
+                    </div><!--text_info-->
+                </li>
+                <li>
+                    <div class="title">
+                        <p class="title_in1">황진미 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>★★★★★</span></p>
+                        <p class="title_in1-1">황진미 <span>★★★★★</span></p>
+                        <p class="title_in2">누구라도 매혹되지 않을 수 없는, 찬란한 아름다움!</p>
+                        <p class="title_in3">누구라도 매혹되지 않을 수 없는,<br> 찬란한 아름다움!</p>
+                    </div><!--title E-->
+                    <div class="text_info">
+                        캐롤은 자기 자신을 부정하지 않고 그녀의 의지로 테레즈를 담았다.
+                        영화의 마지막, 이제는 자신이 무엇을 원하고 원하지 않는지 알게된
+                        테레즈가 <br> 캐롤을 향해 온전한 자기 발걸음을 내딛는다.  
+                    </div><!--text_info-->
+                </li>
+            </ul>
+        </div><!--contents1_in-->
+    </div>
+
+    <div id="award" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+     <div class="text1">전 세계 영화제 77개 부문 수상 <br>
+        & 245개 부문 노미네이드!</div>
+        <div class="text2">칸 공식 데일리지에서 가장 높은 <br>
+            평점을 받은 황금종려상 후보!</div>
+    </div><!--award E-->
+
+    <div id="poster">
+        <div class="poster_inner">
+        <img src="images/poster.png" alt="재개봉 포스터">
+        <p class="poster_text" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">두 사람의 강렬하고 애틋한 사랑 <br>
+        올해 최고의 로맨스가 12월 24일에 다시 찾아옵니다!</p>
+        <p class="poster_text2" data-aos="fade-up" data-aos-duration="1000">두 사람의 강렬하고 애틋한 사랑 <br>
+            올해 최고의 로맨스가 <br> 12월 24일에 다시 찾아옵니다!</p>
+
+        <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">예고편 바로 보러가기</h3>
+        <div id="trailer">
+        <div class="netflix">
+           <a href="#none"><img src="images/netflix.png" alt="넷플릭스 바로가기"></a> 
+        </div><!--netflix E-->
+        <div class="watcha">
+            <a href="#none"><img src="images/watcha.png" alt="왓챠 바로가기"></a>
+        </div><!--watcha E-->
+    </div><!--trailer E-->
+    <div id="intro">
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">MOVIE <br>
+            INTRODUCE</h1>
+    </div><!--intro E-->
+    </div><!--poster_inner E-->
+    </div><!--poster E-->
+
+</div><!--bg1 E-->
+<div id="intro_bg">
+            <img src="images/small_intro.png" alt="줄거리 배경">
+</div><!--intro_bg E-->
+<div id="contents2">
+    <div class="contents2_in">
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">MOVIE <br>
+        INTRODUCE</h1>
+        <div class="text_box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+        <P class="story1">1950년대 뉴욕, 맨해튼 백화점 점원인 테레즈(루니 마라)와 손님으로 찾아온 캐롤(케이트 블란쳇)은 <br>
+            처음 만난 순간부터 거부할 수 없는 강한 끌림을 느낀다. </p>
+            
+            <p class="story2">테레즈는 캐롤이 의도적으로 카운터에 두고 간 장갑을 돌려주게 된다. 캐롤이 감사 표현으로 테레즈에게 점심을 사주는 <br>
+             것을 시작으로 서로 점점 가까워져 가지만 경험 많은 캐롤은 순수하고 거침없는 테레즈에게 조심스럽다. <br>
+            또한 딸의 양육권과 이혼으로 소송으로 지친 캐롤은 어느 날 테레즈에게 여행을 제안하고 둘만의 여행이 시작된다.</p>
+            
+          <p class="story3">자신의 감정이 무엇인지 잘 모르지만 적극적이고 충실한 테레즈와 자신이 느끼는 감정을 정확히 알고 있지만 사회의 벽에 <br>
+            부딪히는 캐롤. 나이 차이도 있고 사회적 신분도 다른 두 사람이지만 각자의 상황을 잊을 만큼 통제할 수 없이 서로에게 빠져드는 <br>
+            감정의 혼란 속에서 둘은 확신하게 된다.</p>
+            
+          <p class="story4">인생의 마지막에, 그리고 처음으로 찾아온 진짜 사랑임을…</p>
+          </div><!--text_box E-->
+    </div><!--contents2_in E-->
+</div><!--contents2 E-->
+
+<div id="contents3">
+    <div class="contents3_in">
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">CHARACTER</h1>
+        <div class="character1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">
+        <div class="p1"><img src="images/carol.png" alt="등장인물1">
+                        <p>아이와 남편이 있지만 양육권과 이혼으로 소송 중인 캐롤 <br>
+                            남편의 통제로 억압된 삶을 살다 테레즈를 만난 뒤로 <br>
+                            인생이 송두리째 바뀐다</p></div><!--p1 E-->
+        <div class="p2"><img src="images/therese.png" alt="등장인물2">
+                        <p>백화점 직원으로 일하고 있는 테레즈 <br>
+                            남자친구가 있지만 캐롤을 만난 뒤로 자신이 무엇을 <br>
+                            진정으로 원하는지 깨닫게된다</p></div><!--p2 E-->
+    </div><!--character1 E-->
+    <div class="character2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+        <div class="p3"><img src="images/abby.png" alt="등장인물3">
+                        <p>캐롤의 옛 연인이자 친구인 애비 <br>
+                            하지에게 있어서 시기의 대상이자 캐롤에게는 <br>
+                            유일한 피난처 같은 존재이다</p></div><!--p3 E-->
+        <div class="p4"><img src="images/harge.png" alt="등장인물4">
+                        <p>캐롤의 남편 하지 <br>
+                            캐롤을 사랑한다는 명목 아래 캐롤을 <br>
+                            통제하고 자신의 삶에 가둔다</p></div><!--p4 E-->
+        <div class="p5"><img src="images/richard.png" alt="등장인물5">
+                        <p>테레즈의 남자친구 리차드 <br>
+                            테레즈와 함께 여행 다니길 꿈꾸지만 테레즈의 <br>
+                            꿈과 마음에는 관심을 가져주지 않는다</p></div><!--p5 E-->
+    </div><!--character1 E-->
+    </div><!--contents3_in E-->
+</div><!--contents3 E-->
+
+<div id="contents4">
+    <div class="contents4_in">
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">MOVIE<br>
+        MAGAZINE</h1>
+        <div class="magazine1">
+        <div class="left_img1">
+            <img src="images/magazine1.png" alt="매거진 사진1">
+        </div><!--left_img E-->
+        <div class="right_img1">
+            <img src="images/magazine1-1.png" alt="매거진 사진1-1">
+        </div><!--right_img E-->
+        <div class="right_img1-1">
+            <img src="images/small_magazine1.png" alt="매거진 사진2">
+        </div><!--right_img E-->
+    </div><!--magazine1 E-->
+        <ul class="magazine1-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+            <li class="btn1">
+                <h3>Acne Studios</h3>
+                <p class="t1">Canada Wool Beret</p>
+                    <p class="t2">168,000 KRW</p>              
+            </li>
+            <li class="btn2">
+                <h3>Acne Studios</h3>
+                <p class="t1">Canada Wool Scarf</p>
+                <p class="t2">199,000 KRW</p>
+            </li>
+
+            <li class="btn3">
+                <h3>Zara</h3>
+                <p class="t1">Faux Fur Brown Coat</p>
+                <p class="t2">154,000 KRW</p>
+            </li>
+            <li class="btn4">
+                <h3>Calvin Klein</h3>
+                <p class="t1">Saffiano Satchel Bag</p>
+                <p class="t2">546,000 KRW</p>
+            </li>
+        </ul>
+
+        <div class="magazine2">
+            <div class="left_img2-2">
+                <img src="images/small_magazine2.png" alt="모바일용 매거진">
+            </div><!--left_img E-->
+            <div class="left_img2">
+                <img src="images/magazine2-2.png" alt="매거진 사진2-2">
+            </div><!--left_img E-->
+            <div class="right_img2">
+                <img src="images/magazine2.png" alt="매거진 사진2">
+            </div><!--right_img E-->
+           
+        </div><!--magazine1 E-->
+        <ul class="magazine2-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <li class="btn1">
+                <h3>Parfois</h3>
+                <p class="t1">Check Wool Beret</p>
+                    <p class="t2">59,000 KRW</p>              
+            </li>
+            <li class="btn2">
+                <h3>Low Classic</h3>
+                <p class="t1">Check Wool Muffler</p>
+                <p class="t2">123,000 KRW</p>
+            </li>
+
+            <li class="btn3">
+                <h3>Low Classic</h3>
+                <p class="t1">hood half wool Coat</p>
+                <p class="t2">220,000 KRW</p>
+            </li>
+            <li class="btn4">
+                <h3>Marc Jacobs</h3>
+                <p class="t1">Classic Leather Bag</p>
+                <p class="t2">645,000 KRW</p>
+            </li>
+        </ul>
+    </div><!--contents4_in E-->
+</div><!--contents4 E-->
+<div id="contents5">
+    <div class="contents5_in">
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">MOVIE<br>
+        STEELCUT</h1>
+        <div class="box1">
+            <div class="text_box1">
+            <img src="images/steel_text1.png" alt="명대사1">
+            <p>캐롤.. 보고싶어요.. 보고싶어요..</p>
+        </div><!--text_box1 E-->
+        </div><!--box1 E-->
+        <div class="box2">
+            <div class="text_box2">
+            <img src="images/steel_text2.png" alt="명대사2">
+            <p>하늘에서 떨어진, 나의 천사</p>
+        </div><!--text_box2 E-->
+        </div>
+
+        <div class="video">
+            <ul>
+                <li>
+                    <iframe width="1320" height="742.5" src="https://www.youtube.com/embed/cBitsk8LIEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
+            </ul>
+        </div><!--video E-->
+    </div><!--contents5_in E-->
+</div><!--contents5 E-->
+
+<div id="contents6">
+    <div class="contents6_in">
+        <h1 data-aos="fade-up" data-aos-duration="1000">MOVIE GOODS</h1>
+    <img src="images/screenplay.png" alt="각본집">
+
+</div><!--contents6_in E-->
+</div><!--contents6 E-->
+
+<div id="main_banner">
+    <div class="swiper mb">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+               <a href="#none"><img src="images/popcorn1.png" alt="메인1"></a>
+                <p class="goods_t1">Carol 재개봉 기념<br> 포토 팝콘</p>
+                <p class="goods_t2">5,500원</p>
+            </div><!--swiper-slide E-->
+            <div class="swiper-slide">
+                <a href="#none"><img src="images/sticker.png" alt="메인2"></a>
+                <p class="goods_t1">Carol 로고 스티커</p>
+                <p class="goods_t2">7,000원</p>
+            </div><!--swiper-slide E-->
+            <div class="swiper-slide">
+                <a href="#none"> <img src="images/ticket.png" alt="메인3"></a>
+                <p class="goods_t1">Carol 재개봉 기념<br> 포토 티켓</p>
+                <p class="goods_t2">14,000원</p>
+            </div><!--swiper-slide E-->
+            <div class="swiper-slide">
+                <a href="#none"><img src="images/perfume.png" alt="메인4"></a>
+                <p class="goods_t1">Carol 재개봉 기념<br> 향수</p>
+                <p class="goods_t2">34,000원</p>
+            </div><!--swiper-slide E-->
+            <div class="swiper-slide">
+                <a href="#none"> <img src="images/stamp.png" alt="메인1"></a>
+                <p class="goods_t1">Carol 빈티지<br> 포토 우표</p>
+                <p class="goods_t2">10,000원</p>
+            </div><!--swiper-slide E-->
+            <div class="swiper-slide">
+                <a href="#none"> <img src="images/dvd.png" alt="메인2"></a>
+                <p class="goods_t1">Carol 고화질 CD<br> 플레이어</p>
+                <p class="goods_t2">15,000원</p>
+            </div><!--swiper-slide E-->
+        </div><!--swiper-wrapper E-->
+</div><!--main_banner E-->
+
+<div id="footer">
+    <div class="footer_inner">
+        <h2><a href="#"><img src="images/footer_logo.png" alt="푸터 로고"></a></h2>
+        <p>사업자등록번호: 112-86-30084| 대표자: 이채원 | 부산광역시 부산진구 동천로92 | 대표번호: 1544-1288 | 이메일: zx8024@naver.com</p>
+        <p class="footer_text">개인정보 보호 책임자: 이채원 | 호스팅 서비스 사업자: Carol | 통신판매업신고: 제 2022-부산진구-1004 호 (사업자정보확인) | 개인정보처리방침 | 이용약관</p>
+    </div><!--footer_inner E-->
+    <div class="footer_inner2">
+        <h2><a href="#"><img src="images/small_logo.png" alt="푸터 로고2"></a></h2>
+        <p>대표자: 이채원 | 부산광역시 부산진구 동천로92 | 대표번호: 1544-1288</p>
+        <p class="footer_text2">ⓒ2022 Carol, ALL RIGHTS RESERVED.</p>
+    </div><!--footer_inner E-->
+</div><!--footer E-->
+
+<!--top btn-->
+<div class="fixed_box">
+    <a href="#main_bg"><img src="images/top.png" alt="up"></a>
+</div><!--fixed_box-->
+
+
+
+<!--슬라이드 스크립트-->
+<script>
+     AOS.init();
+
+    var swiper = new Swiper('.mb', {
+        
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        loop: true,//마지막장 다음슬라이드가 첫번째슬라이드가 되어 무한 반복됨
+        slidesPerView: 2,
+               
+        effect: 'coverflow',
+        coverflowEffect: {
+            rotate: 0,
+            depth: 100,
+            slideShadows: false,
+            // modifier:1,
+            // stretch: 50
+         },
+
+        centeredSlides:true,
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+            slidesPerView: 2,
+            spaceBetween:20,
+            },
+            // when window width is >= 480px
+            700: {
+            slidesPerView: 4,
+            spaceBetween:40,
+            },
+            // when window width is >= 640px
+            1320: {
+            slidesPerView: 4,
+            spaceBetween:60,
+            }
+        }
+    });
+
+    $(function() {
+				$('a[href*="#"]:not([href="#"])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				if (target.length) {
+				$('html, body').animate({
+				scrollTop: target.offset().top
+				}, 500);//움직이는 시간 조정
+				return false;
+				}
+				}
+				});
+				});
+    
+</script>
+    
+</body>
+</html>
