@@ -250,7 +250,10 @@ span{
     text-align: center;
 }
 #poster img{
-    width: 100%;
+    width: 90%;
+}
+.img_box{
+    padding:100px 0 ;
 }
 .poster_text{
     font-size: 38px;
@@ -1134,6 +1137,9 @@ span{
         padding-right: 4%;
         padding-left: 4%;
     }
+    .img_box{
+        padding:70px 0 ;
+    }
 }
 
 @media (max-width:410px){
@@ -1153,6 +1159,7 @@ span{
     .text_box1 p, .text_box2 p{
         font-size: 16px;
     }
+    
 
 }
 
