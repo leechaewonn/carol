@@ -55,7 +55,7 @@ header{
      display: block;
      padding: 20px 0;
  }
- nav ul .on, nav ul li a:hover{
+ nav ul li a:hover{
      background: url(../images/gnb_on.png) no-repeat center top;
  }
 
